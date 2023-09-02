@@ -4,7 +4,7 @@ import torch
 from transformers.models.t5.modeling_t5 import *
 from transformers.file_utils import ModelOutput
 from transformers.generation_utils import *
-from transformers.generation_beam_search import *
+from transformers.generation.beam_search import *
 import copy
 
 _CONFIG_FOR_DOC = "T5Config"
